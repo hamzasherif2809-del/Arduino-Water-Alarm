@@ -75,7 +75,7 @@ void startAlarmSequence() {
       if (value == 1234) { 
         noTone(BUZZER_PIN);
         alarmActive = false;
-        waterSpilled = true; // THE MAGIC FIX: Prevents instant re-trigger
+        waterSpilled = true; // This line seems useless, but fixed an issue where the buzzer kept re-triggering even after the button was clicked.
         Serial.println("Signal Received! Disarming.");
         mySwitch.resetAvailable();
         return; 
