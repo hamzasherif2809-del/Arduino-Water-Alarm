@@ -1,4 +1,4 @@
-// BEDROOM ALARM (RCSwitch Version) - FINAL FIXED
+// BEDROOM ALARM
 #include <Wire.h>
 #include <RTClib.h>
 #include <Servo.h>
