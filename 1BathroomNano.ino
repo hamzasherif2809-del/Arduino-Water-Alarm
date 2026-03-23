@@ -1,4 +1,4 @@
-// BATHROOM TRANSMITTER (RCSwitch Version)
+// BATHROOM TRANSMITTER
 #include <RCSwitch.h>
 
 RCSwitch mySwitch = RCSwitch();
